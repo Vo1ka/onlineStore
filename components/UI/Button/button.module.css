@@ -1,0 +1,23 @@
+.btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #006BA8;
+    transition: transform 500ms ease-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.disabled{
+    background-color: orange;
+    transition: background-color 300ms ease;
+    cursor: none;
+}
+
+.btn.disabled:hover{
+    background-color: red;
+}

@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    max-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #000000;
+    
+  }
+  
+.header img {
+  cursor: pointer;
+}
+
+.header__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    margin-top: -10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item > p {
+    font-weight: 500;
+  }
